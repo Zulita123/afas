@@ -1,0 +1,101 @@
+	@font-face {
+	   font-family: 'Roboto';
+	   src: url('../../fonts/Roboto/Roboto-Regular.ttf');
+	   src: url('../../fonts/Roboto/Roboto-Regular.ttf') format('ttf'),
+	        url('../../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+	   
+	}
+	@font-face{
+		font-family: 'OpenSans';
+	   src: url('../../fonts/Open_Sans/OpenSans-Regular.ttf');
+	   src: url('../../fonts/Open_Sans/OpenSans-Regular.ttf') format('ttf'),
+	        url('../../fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+	}
+	@font-face{
+		font-family: 'Lato';
+	   src: url('../../fonts/Lato/Lato-Regular.ttf');
+	   src: url('../../fonts/Lato/Lato-Regular.ttf') format('ttf'),
+	        url('../../fonts/Lato/Lato-Regular.ttf') format('truetype');
+	}
+	@font-face{
+		font-family: 'Titillium Web';
+	   src: url('../fonts/Titillium_Web/TitilliumWeb-Regular.ttf');
+	   src: url('../fonts/Lato/TitilliumWeb-Regular.ttf') format('ttf'),
+	        url('../fonts/Lato/TitilliumWeb-Regular.ttf') format('truetype');
+	}
+	*{margin: 0px;padding: 0px;}
+	.kotak-kiri{
+		float: left;
+	}
+	.kotak-kiri img {
+		height: 700px;
+	}
+	.trs{
+		width: 620px;
+		position: absolute;
+		height: 700px;
+		background-color: rgba(0,0,0,0.1);
+		float: left;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		top: 0;
+	}
+	.kotak-kanan{
+		float: left;
+		width: 725px;
+		background-color: #fff;
+	}
+	.kotak-kanan .foot{
+		width: 725px;
+		height: 40px;
+		padding: 10px;
+		color: #333;
+		background-color: #eee;
+	}
+	.kotak-kanan .kotak-login{
+		width: 550px;
+		height: 300px;
+		margin:180px 80px;
+		background-color:;
+	}
+	.kotak-kanan .kotak-login .k-judul{
+		color: #999;
+		font-size: 25px;
+		font-family: 'OpenSans';
+	}
+	.kotak-kanan .kotak-login .k-isi{
+		color: #999;
+		font-size: 16px;
+		font-family: 'Roboto';
+	}
+	.kotak-kanan .kotak-login .texta{
+		width: 45%;
+	    padding: 10px 20px;
+	    margin: 8px 0;
+	    color: #999;
+	    box-sizing: border-box;
+	    font-family: 'OpenSans';
+	    border: none;
+	    border-bottom: 2px solid #ddd;
+	}
+	.kotak-kanan .kotak-login .textb{
+		width: 45%;
+	    padding: 10px 20px;
+	    margin: 8px 10px;
+	    box-sizing: border-box;
+	    font-family: 'OpenSans';
+	    color: #999;
+	    border: none;
+	    border-bottom: 2px solid #ddd;
+	}
+	.kotak-kanan .kotak-login .btn{
+		float: right;
+		color: #fff;
+		background: #28c6d2;
+		margin-top: 20px;
+	}
+	.kotak-kanan .kotak-login .btn:hover{
+		background-color: #2ad1dd;
+		transition-duration:2s;
+	}
