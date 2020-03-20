@@ -24,7 +24,7 @@
           <img src="<?php echo base_url();?>/assets/icon/afas.png" style="width: 80px;height:80px;margin:10px 10px;margin-left: 20px;">
         </div>
         <div class="tulisan">
-          <p class="judul-1">Yayasan Nurusalam Kelet Jepara</p>
+          <p class="judul-1">Yayasan Nurussalam Kelet Jepara</p>
           <p class="judul-2">SMK WIKRAMA 1 JEPARA</p>
           <p class="judul-3">Ilmu yang Amaliah, Amal yang Ilmiah, Akhlakul Karimah</p>
         </div>
