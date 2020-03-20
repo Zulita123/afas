@@ -100,7 +100,6 @@
 
       </div>
       <div class="header">
-        <div class="logo" style="float: left;">
           <div class="logo" style="float: left;">
           <img src="<?php echo base_url();?>/assets/icon/afas.png" style="width: 80px;height:80px;margin:10px 10px;margin-left: 20px;">
         </div>
