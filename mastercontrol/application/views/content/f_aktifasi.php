@@ -39,7 +39,9 @@
                                         <div class="form-group">
                                             <label>Kelas</label>
                                             <select class="form-control" name="kelas">
-                                                <option>XII</option>
+                                                <option>X</option>
+												<option>XI</option>
+												<option>XII</option>
                                             </select>
                                         </div>
                                         <div class="form-group">
