@@ -40,8 +40,8 @@
                                             <label>Kelas</label>
                                             <select class="form-control" name="kelas">
                                                 <option>X</option>
-												<option>XI</option>
-												<option>XII</option>
+						<option>XI</option>
+						<option>XII</option>
                                             </select>
                                         </div>
                                         <div class="form-group">
