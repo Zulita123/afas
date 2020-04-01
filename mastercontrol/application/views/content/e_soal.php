@@ -80,8 +80,8 @@
                                                 <label>Kelas</label>
                                                 <select class="form-control" name="kelas" id="kelas">
                                                       <option <?php if($hsl['kelas']=="X"){echo "selected";}?>>X</option>
-													  <option <?php if($hsl['kelas']=="XI"){echo "selected";}?>>XI</option>
-													  <option <?php if($hsl['kelas']=="XII"){echo "selected";}?>>XII</option>
+						       <option <?php if($hsl['kelas']=="XI"){echo "selected";}?>>XI</option>
+							<option <?php if($hsl['kelas']=="XII"){echo "selected";}?>>XII</option>
                                                 </select>
                                             </div>
                                            <div class="form-group">
