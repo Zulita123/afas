@@ -54,8 +54,9 @@
                                     </td>
                                     <td>
                                         <select class="form-control" name="kelas">
-                                            <option value="IX" <?php if($this->input->post('kelas') == "IX"){ echo "selected";};?>>IX</option>
-                                            
+                                            <option value="X" <?php if($this->input->post('kelas') == "X"){ echo "selected";};?>>IX</option>
+                                            <option value="XI" <?php if($this->input->post('kelas') == "XI"){ echo "selected";};?>>IX</option>
+											<option value="XII" <?php if($this->input->post('kelas') == "XII"){ echo "selected";};?>>IX</option>
                                         </select>
                                     </td>
                                     <td>
