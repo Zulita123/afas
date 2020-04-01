@@ -1,3 +1,4 @@
+
 <?php
     if($status=="edit"){
         $val=$hsl->row_array();
@@ -65,7 +66,9 @@
                                         <div class="form-group">
                                             <label>Kelas</label>
                                             <select class="form-control" name="kelas">
-                                                <option <?php if($val['kelas']=="IX"){echo "selected";}?>>IX</option>
+                                               	   <option <?php if($val['kelas']=="X"){echo "selected";}?>>X</option>
+												   <option <?php if($val['kelas']=="XI"){echo "selected";}?>>XI</option>
+												   <option <?php if($val['kelas']=="XII"){echo "selected";}?>>XII</option>
                                             </select>
                                         </div>
                                         <div class="form-group">
