@@ -30,7 +30,9 @@
                                             <div class="form-group">
                                                 <label>Kelas</label>
                                                 <select class="form-control" name="kelas" id="kelas">
-                                                    <option <?php if($this->session->userdata('kelas')=="XII"){echo "selected";}?>>XII</option>
+                                                    <option <?php if($this->session->userdata('kelas')=="X"){echo "selected";}?>>X</option>
+																									 <option <?php if($this->session->userdata('kelas')=="XI"){echo "selected";}?>>XI</option>
+																									 <option <?php if($this->session->userdata('kelas')=="XII"){echo "selected";}?>>XII</option>
                                                     
                                                 </select>
                                             </div>
